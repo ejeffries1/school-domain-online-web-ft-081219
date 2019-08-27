@@ -20,7 +20,7 @@ class School
   end
   
   def sort
-    School.roster.sort
+    School.@roster.sort
   end
 end
 # code here!
