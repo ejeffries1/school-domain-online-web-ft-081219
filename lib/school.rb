@@ -20,7 +20,8 @@ class School
   end
   
   def sort
-    School.@roster.sort
+    self.roster.each do |grade, students|
+      students.sort
   end
 end
 # code here!
