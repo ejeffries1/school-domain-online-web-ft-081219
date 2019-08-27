@@ -20,7 +20,7 @@ class School
   end
   
   def sort
-    school.sort
+    School.roster[name].sort
   end
 end
 # code here!
